@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="main.css" />
     <title>Unity WebGL Player | Project 3</title>
     <script src="Build/UnityLoader.js"></script>
     <script>
@@ -10,6 +11,24 @@
     </script>
   </head>
   <body>
-    <div id="unityContainer" style="width: 800px; height: 450px; margin: auto"></div>
+    <div class="unityContainerContainer">
+      <div
+        id="unityContainer"
+        style="width: 800px; height: 450px; margin: auto"
+      ></div>
+    </div>
+    <div class="align-center">
+      <h2 style="margin-bottom: 0">How To Play</h2>
+      <div class="howToPlay">
+        <ul>
+          <li>Move around the map using <strong>WASD</strong></li>
+          <li>
+            Press and hold <strong>Space</strong> to increase your shot force
+          </li>
+          <li>Release <strong>Space</strong> to hit the ball</li>
+          <li>Press <strong>Escape</strong> to reveal your mouse</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>

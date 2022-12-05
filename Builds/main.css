@@ -1,0 +1,36 @@
+body,
+input,
+select,
+textarea {
+  color: #666;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  line-height: 1.65em;
+}
+
+.unityContainerContainer {
+  width: 800px;
+  height: 450px;
+  margin: auto;
+  clear: both;
+}
+
+.unityContainer {
+  width: 800px;
+  height: 450px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.howToPlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.howToPlay li {
+  text-align: left;
+}
